@@ -36,7 +36,7 @@ color:#00a550 ;
     font-size: 12px;
 }
 .section3{
-    height: 650px;
+    height: 400px;
     width: 100%;
     border: solid red 1px;
     display: flex;
@@ -98,11 +98,87 @@ color: rgb(153, 148, 148);
     transform: scale(1.2);
 }
 
+.section4{
+width: 100%;
+border: solid red 1px;
+text-align: center;
+
+}
+
+.section4 h2{
+    color: rgba(0, 0, 0, 0.925);
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.section4 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(153, 148, 148);
+  
+
+
+}
+.section5{
+
+width: 100%;
+border: solid red 1px;
+display: flex;
+justify-content: space-around;
+}
+.section5 div{
+height: 200px;
+width: 25%;
+border: red solid 1px;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+.section5 img {
+    background-color: rgb(179, 177, 177); ;
+     border-radius: 50%;
+     padding: 15px;
+}
+.section5 div h4{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(3, 3, 3);
+     text-align: center;
+
+}
+.section5 div p{
+
+    color: rgb(194, 181, 181); ;
+    border-radius: 50%;
+
+}
+.section6{
+width: 100%;
+border: solid red 1px;
+text-align: center;
+}
+.section6 h2{
+    color: rgba(0, 0, 0, 0.925);
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+
+}
+.section6 p{
+
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(153, 148, 148);
+
+
+}
+
+
 
 @media screen and (max-width:425px) {
 
    .h1_section1  {
-flex-direction: column;
+   flex-direction: column;
     width: 100%;
     display: flex;
     align-items: center;
@@ -128,6 +204,20 @@ gap: 20px;
     left: 0;
     align-items: start;
   }
+  .section4_p{
+    width:100%;
+    left: 0;
+    margin: 0;
+  }
+   .section5 {
+  flex-direction: column;
+     align-items: center;
     
+    }
+    .section5 div{
+        width: 100%;
+        
+    }
+
     
 }
