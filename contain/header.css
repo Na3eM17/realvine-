@@ -1,0 +1,92 @@
+body{
+margin: 0;
+padding: 0;
+}
+header{
+height: 70px;
+width: 100%;
+border: solid red 1px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.revline-logo{
+height: 60px;
+width: 10%;
+border: solid 1px red;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.links_header{
+height: 60px;
+width:50%;
+border: solid red 1px;
+
+}
+.links_header a{
+margin: 10px;
+text-decoration: none;
+color: black;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: small;
+}
+.links_header button{
+height: 30px;
+ width:70px;
+background-color: rgba(3, 146, 3, 0.719);
+color: white;
+border: none;
+border-radius: 40px;
+margin: 15px;
+}
+.links_header img{
+    display: none;
+}
+.links_header button:hover{
+transform: scale(1.2);
+
+}
+.links_header a:hover{
+    transform: scale(1.2);
+    color: silver;
+ }
+@media screen and (max-width:768px){
+    .links_header a{
+    width: fit-content;
+    font-size: 10px;
+    }
+    .links_header img{
+     display: none;
+    }
+
+    .revline-logo{
+
+        width: fit-content;
+        font-size: 20px;
+
+
+    }
+    
+}
+    @media screen and (max-width:425px) {
+        .links_header a{
+         display: none;
+            }
+        .links_header button{
+          width: fit-content;
+        }
+        .links_header img{
+            width: fit-content;
+            display: flex;
+            position: relative;
+            bottom: 72%;
+            left: 39%;
+          }
+    }
+
+ 

@@ -1,0 +1,127 @@
+main{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+height: 550px;
+width: 100%;
+border: solid red 1px;
+background-image: url(../images/hero-bg.jpg);
+background-position: 50%;
+background-size: cover;
+align-content: center;
+border-radius: 25px;
+
+}
+.h1_section1{
+height: 350px;
+width: 40%;
+border: solid rgb(9, 255, 0) 1px;
+align-content: center;
+position: relative;
+left: 10%;
+}
+.h1_section1 h1{
+color: white ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h1_section1 span {
+color:#00a550 ;
+
+}
+.h1_section1 p {
+
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.section3{
+    height: 650px;
+    width: 100%;
+    border: solid red 1px;
+    display: flex;
+}
+.img_sec3{
+height: 350px;
+width: 20%;
+border:  solid red 1px;
+background-image: url(../images/about-banner.jpg);
+background-position: center;
+background-size: cover;
+border-radius: 20px;
+position: relative;
+top: 30%;
+left: 15%;
+margin: 30px;
+align-content: center;
+position: relative;
+ }
+ .img_sec3 img{
+position:absolute;
+left: 50%;
+background-color: white;
+border-radius: 50px;
+ }
+
+ .EFiciency_sec3{
+    height: 350px;
+    width: 47%;
+    border:  solid red 1px;
+    position: relative;
+    left: 15%;
+    top: 35%;
+    align-content: center;
+}
+.EFiciency_sec3 h3{
+color: rgba(0, 0, 0, 0.925);
+font-size: x-large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.EFiciency_sec3 p {
+font-size: small;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(153, 148, 148);
+
+}
+.EFiciency_sec3 button {
+
+    height: 30px;
+    width:100px;
+   background-color:#00a550 ;;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   margin: 15px;
+}
+.EFiciency_sec3 button:hover{
+
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width:525px) {
+
+   .h1_section1  {
+flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   left: 0;
+    font-size: 20px;
+   }
+   .section3{
+flex-direction: column;
+
+   }
+  .img_sec3{
+    height: 200px;
+    width: 100%;
+    left: 0;
+  } 
+
+    
+    
+}
