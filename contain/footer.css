@@ -1,0 +1,91 @@
+.containor{
+    background-color: rgba(0, 0, 0, 0.918);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.containor *{
+    color: white;
+    text-decoration: none;
+}
+
+.footer1{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(17 41 49 / 57%);
+}
+.footer1 ul{
+    list-style: none;
+}
+
+.footer2{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.footer2 ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.footer2 ul li a img{
+    border: 1px solid rgb(17 41 49 / 57%);
+    border-radius: 7px;
+    padding: 5px;
+}
+.ul-footer{
+    margin-top: 30px;
+    text-align: center;
+    padding: 0 10px;
+}
+.ul-footer h3{
+    margin:0;
+    text-align: left;
+    font-size: 30px;
+}
+.ul-footer ul li{
+    margin:10px 0;
+    display: flex;
+    text-align: left;
+}
+
+.ul-footer ul .li2{
+    margin:10px 0;
+    display: flex;
+    justify-content: center;
+}
+.ul-footer .revline-logo h3{
+    font-size: 25px;
+    margin-top: 10px;
+}
+@media screen and (max-width:425px){
+    
+    .footer1{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+    }
+    .footer2{
+        flex-direction: column;
+    }
+    .footer1 ul{
+        margin: 0;
+        padding: 0;
+    }
+    .footer1 h3{
+        text-align: center;
+    }
+    .footer2 ul{
+        padding: 0;
+        justify-content: center;
+        gap: 20px;
+    }
+}
