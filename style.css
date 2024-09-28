@@ -1,0 +1,19 @@
+#view{
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  
+  #view.show{
+    transform: translateY(0);
+    opacity: 1;
+    transition: 1s ease-in;
+  }
+  #view2{
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  #view2.show2{
+    transform: translateX(0);
+    opacity: 1;
+    transition: 1s ease-in;
+  }

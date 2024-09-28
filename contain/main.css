@@ -148,8 +148,7 @@ color: rgb(153, 148, 148);
 }
 .EFiciency_sec3 button {
 
-    height: 30px;
-    width:100px;
+   padding: 10px;
    background-color:#00a550 ;;
    color: white;
    border: none;
@@ -367,6 +366,8 @@ background-color: #00a550;
     .section1{
         width: 95%;
         border-radius: 10px;
+        aspect-ratio: 5 / 10;
+        margin-top: 75px;
       }
    .h1_section1  {
    flex-direction: column;
@@ -478,4 +479,7 @@ gap: 20px;
         width: 40%;
         font-size: 15px;
     }
+}
+@media screen and (max-width:320px){
+    .right{text-align: end;}
 }
